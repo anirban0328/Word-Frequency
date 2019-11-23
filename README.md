@@ -4,7 +4,7 @@ The program runs sucessfully on Java 8+
 
 To run the program execute the below command:
 ```
-	java -jar WordCount.jar <file1 absolute path> <file2 absolute path>
+java -jar WordCount.jar <file1 absolute path> <file2 absolute path>
 ```
 Example: 
 ```
@@ -15,7 +15,6 @@ The prgram runs on 2 threads for each of the file to create in-memory cache of w
 Then 3rd thread executes on completion of previous 2 threads to print in console the desired output.
 
 Output format - <word> <total occurences> = <1st file occurence> + <2nd file occurence>
-
 
 Scenarios Handled:
 1. only 2 input files allowed.
