@@ -11,6 +11,7 @@ Example:
 java -jar WordCount.jar file1.txt file2.txt
 ```
 
+## Note
 The prgram runs on 2 threads for each of the file to create in-memory cache of word and its count.
 Then 3rd thread executes on completion of previous 2 threads to print in console the desired output.
 
@@ -20,9 +21,9 @@ Output format
 ```
 
 ## Scenarios Handled:
-1. only 2 input files allowed.
-2. file if exist is checked.
-3. only text file with format .txt allowed.
+1. Only 2 input files allowed.
+2. File if exist is checked.
+3. Only text file with format .txt allowed.
 4. UTF-8 encoding is validated while using BufferReader.
 5. ConcurrentHashMap is used to store word frequency in-memory and ensure it to be thread-safe.
 6. Each line of the file is processed one by one instead of loading entire file in-mmemory.
