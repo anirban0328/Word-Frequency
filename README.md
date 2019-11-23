@@ -16,7 +16,7 @@ Then 3rd thread executes on completion of previous 2 threads to print in console
 
 Output format - <word> <total occurences> = <1st file occurence> + <2nd file occurence>
 
-Scenarios Handled:
+## Scenarios Handled:
 1. only 2 input files allowed.
 2. file if exist is checked.
 3. only text file with format .txt allowed.
